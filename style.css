@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    column-gap: 30px;
+    background-color: #410960;
+    padding: 20px;
+}
+
+.left-container {
+    width: 50%;
+}
+.right-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.right-top-container {
+    display: flex;
+    width: 100%;
+    column-gap: 20px;
+}
+.left-top {
+    margin-bottom: 10px;
+}
+
+.left-top div {
+    background-color: #BA54D4;
+    height: 60px;
+}
+.yellow {
+    background-color: #FCA811;
+    height: 112px;
+    margin-bottom: 8px;
+}
+.red {
+    background-color: #F2404E;
+    height: 60px;
+}
+.left-bottom-left {
+    width: 50%;
+}
+.left-bottom-right {
+    background-color: #00BECE;
+    height: 180px;
+    width: 50%;
+}
+.left-bottom {
+    display: flex;
+    gap: 20px;
+}
+.right-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.right-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.right-left .first {
+    height: 51px;
+    background-color: #F2404E;
+}
+.right-left .second {
+    height: 30px;
+    background-color: #00BECE;
+}
+.right-left .third {
+    height: 60px;
+    background-color: #FCA811;
+}
+.right-right .first {
+    height: 65px;
+    background-color: #00BECE;
+}
+.right-right .second {
+    height: 40px;
+    background-color: #FCA811;
+}
+.right-right .third {
+    height: 35px;
+    background-color: #F2404E;
+}
+.right-bottom {
+    height: 78px;
+    background-color: #BC53D4;
+    
+}
